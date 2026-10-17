@@ -1,0 +1,71 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="mNoTLRlGPsI1D-OzcCck">
+    <mxGraphModel dx="1042" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-3" edge="1" parent="1" source="vFFvLGaGo8DA68PEPLIq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vFFvLGaGo8DA68PEPLIq-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-4" edge="1" parent="1" source="vFFvLGaGo8DA68PEPLIq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vFFvLGaGo8DA68PEPLIq-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-6" edge="1" parent="1" source="vFFvLGaGo8DA68PEPLIq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vFFvLGaGo8DA68PEPLIq-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-12" edge="1" parent="1" source="vFFvLGaGo8DA68PEPLIq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" target="vFFvLGaGo8DA68PEPLIq-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="URLSessionHTTPClient" vertex="1">
+          <mxGeometry height="80" width="200" x="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="HTTPClientConfiguration" vertex="1">
+          <mxGeometry height="80" width="170" x="120" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;a href=&quot;https://developer.apple.com/documentation/foundation/urlsession&quot;&gt;URLSession&lt;/a&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="410" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-15" edge="1" parent="1" source="vFFvLGaGo8DA68PEPLIq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vFFvLGaGo8DA68PEPLIq-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="20" />
+              <mxPoint x="520" y="-50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-17" edge="1" parent="1" source="vFFvLGaGo8DA68PEPLIq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vFFvLGaGo8DA68PEPLIq-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="20" />
+              <mxPoint x="520" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=1;roundedPerimeter=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;HTTPClient&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;- send(HTTPRequest): HTTPResponse&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="255" x="212.5" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="HTTPRequest" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="HTTPResponse" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="accepts" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="returns" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Conforms to" vertex="1">
+          <mxGeometry height="30" width="70" x="350" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Uses" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="vFFvLGaGo8DA68PEPLIq-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Stores" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
