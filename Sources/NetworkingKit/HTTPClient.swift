@@ -35,9 +35,9 @@ extension HTTPClient {
     decoder: JSONDecoder = JSONDecoder()
   ) async throws -> Value {
     let response = try await send(request)
-      
+
     try Task.checkCancellation()
-      
+
     do {
       return try decoder.decode(type, from: response.body)
     } catch {
