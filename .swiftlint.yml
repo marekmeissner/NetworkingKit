@@ -1,0 +1,20 @@
+included:
+  - Sources
+  - Tests
+
+strict: true
+
+opt_in_rules:
+  - closure_spacing
+  - empty_count
+  - empty_string
+  - first_where
+  - sorted_imports
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+
+line_length:
+  warning: 120
+  error: 160
+
+reporter: xcode
