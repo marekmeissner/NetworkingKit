@@ -15,7 +15,7 @@ public struct HTTPRequest: Sendable {
   public let headers: [String: String]
   public let body: Data?
 
-  init(
+  public init(
     method: HTTPMethod = .get,
     path: String,
     queryItems: [URLQueryItem] = [],
