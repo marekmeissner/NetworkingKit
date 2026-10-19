@@ -82,7 +82,7 @@ public struct URLSessionHTTPClient: HTTPClient {
     let basePath = components.path.trimmingCharacters(in: CharacterSet(charactersIn: "/"))
     let path = request.path.trimmingCharacters(in: CharacterSet(charactersIn: "/"))
 
-    components.path = "/" + [basePath, path].filter({ $0.isEmpty }).joined(separator: "/")
+    components.path = "/" + [basePath, path].filter({ !$0.isEmpty }).joined(separator: "/")
     components.queryItems = request.queryItems.isEmpty ? nil : request.queryItems
 
     guard let url = components.url else { throw HTTPError.invalidRequest }
