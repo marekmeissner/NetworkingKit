@@ -41,7 +41,9 @@ public struct HTTPRequest: Sendable {
     headers["Content-Type"] = "application/json"
 
     return try HTTPRequest(
-      method: method, path: path, queryItems: queryItems, headers: headers,
+      method: method, path: path,
+      queryItems: queryItems,
+      headers: headers,
       body: encoder.encode(body))
   }
 }
